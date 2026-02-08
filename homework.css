@@ -1,31 +1,13 @@
 body {
   font-family: Arial, sans-serif;
+  font-size: 20px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .cards {
-    display: flex;
-    gap: 20px;
-    flex-wrap: wrap;
-    flex-direction: column;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  flex-direction: column;
 }
 
 .card {
@@ -38,30 +20,30 @@ body {
   border-radius: 15px;
   border: 1px solid grey;
   border-color: grey;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .card p {
-    flex-grow: 1;
+  flex-grow: 1;
 }
 
-.card button{
-    align-self: stretch;
-    padding: 10px;
-    background-color: deepskyblue;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    flex-wrap: wrap;
-    cursor: pointer;
-    
+.card button {
+  font-size: 20px;
+  display: flex;
+  background-color: deepskyblue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 10px;
+  margin: 5px 0;
+  flex-wrap: nowrap;
+  align-items: stretch;
 }
 
 .card button:hover {
-    background-color: #0056b3;
+  background-color: #0056b3;
 }
-
 
 .end {
   display: flex;
@@ -71,7 +53,6 @@ body {
   flex-direction: column;
   align-items: center;
   gap: 15px;
-  font-size: 20px;
 }
 
 .end a {
